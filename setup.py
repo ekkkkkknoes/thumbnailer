@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 "Setup script"
 
 from distutils.core import setup

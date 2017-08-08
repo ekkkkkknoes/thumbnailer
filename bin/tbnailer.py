@@ -1,5 +1,5 @@
+#!/usr/bin/env python3
 "Script module"
 
 import thumbnailer
-
-thumbnailer.thumbnail()
+import thumbnailer.__main__

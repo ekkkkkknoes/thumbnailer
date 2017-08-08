@@ -1,5 +1,12 @@
+#!/usr/bin/env python3
 "Main module"
 
+import sys
 import thumbnailer
 
-thumbnailer.thumbnail()
+if len(sys.argv) > 1:
+    INFILES = sys.argv[1:]
+else:
+    INFILES = []
+for inputfile in INFILES:
+    thumbnailer.thumbnail(inputfile)
