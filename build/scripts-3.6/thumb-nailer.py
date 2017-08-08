@@ -2,4 +2,4 @@
 
 import thumbnailer
 
-thumbnailer.thumbnail()
+print(dir(thumbnailer))

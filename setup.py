@@ -9,6 +9,6 @@ setup(
     author="Sönke Lambert",
     author_email="soelam@live.de",
     url="https://github.com/ekkkkkknoes/thumbnailer",
-    scripts=["bin/thumbnailer"],
+    scripts=["bin/tbnailer.py"],
     packages=["thumbnailer"]
 )

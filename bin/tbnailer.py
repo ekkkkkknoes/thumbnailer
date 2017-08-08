@@ -1,4 +1,4 @@
-"Main module"
+"Script module"
 
 import thumbnailer
 
