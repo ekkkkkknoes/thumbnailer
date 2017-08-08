@@ -1,0 +1,2 @@
+import thumbnailer
+import thumbnailer.__main__
