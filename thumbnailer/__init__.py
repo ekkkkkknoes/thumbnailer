@@ -2,6 +2,7 @@
 "Turn images into 120x180 JPEG thumbnails"
 
 import os
+import sys
 from PIL import Image
 
 _THUMBSIZE = (120, 180)
@@ -13,3 +14,11 @@ def thumbnail(infile):
     img.mode = "RGB"
     outfile, _ = os.path.splitext(infile)
     img.save(outfile + ".jpg")
+
+
+def main():
+    """Main function.
+    Turns all images, passed through sys.argv, into thumbnails.
+    """
+    for inputfile in sys.argv[1:]:
+        thumbnail(inputfile)
