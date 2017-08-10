@@ -13,7 +13,7 @@ def thumbnail(infile):
     img = Image.open(infile).resize(_THUMBSIZE)
     img.mode = "RGB"
     outfile, _ = os.path.splitext(infile)
-    img.save(outfile + ".jpg")
+    img.save(outfile + ".jpg", quality=100)
 
 
 def main():

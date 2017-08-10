@@ -8,7 +8,7 @@ with open("README.rst") as f:
 
 setup(
     name="thumbnailer",
-    version="1.0.3",
+    version="1.1.0",
     description="Module to turn images into thumbnails.",
     long_description=LNG_DSC,
     author="Sönke Lambert",
